@@ -1,3 +1,4 @@
+`ifndef PKT_IF_SV
 `define PKT_IF_SV
 `timescale 1ns / 1ps
 interface pkt_if(input clk, rst_n);

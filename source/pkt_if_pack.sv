@@ -1,6 +1,6 @@
 `include "pkt_if.sv"
 
-`ifdef PKT_INTERFACE_SV
+`ifndef PKT_INTERFACE_SV
 define PKT_INTERFACE_SV
 interface pkt_if_pack(
     input logic clk ,
